@@ -94,6 +94,10 @@ namespace Gabriel_Exchanger
             {
                 CANto(exchangeAmount, exchangeTo);
             }
+            else if (exchangeFrom == "EUR")
+            {
+                EURto(exchangeAmount, exchangeTo);
+            }
             return final;
         }
     }
